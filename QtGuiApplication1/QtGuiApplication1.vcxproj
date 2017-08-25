@@ -95,6 +95,7 @@
     <ClCompile Include="gui.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="QtGuiApplication1.cpp" />
+    <ClCompile Include="ScopedLock.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="QtGuiApplication1.h">
@@ -123,6 +124,7 @@
   <ItemGroup>
     <ClInclude Include="CustomCallback.h" />
     <ClInclude Include="gui.h" />
+    <ClInclude Include="ScopedLock.h" />
     <CustomBuild Include="CustomFigure.h">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </Message>

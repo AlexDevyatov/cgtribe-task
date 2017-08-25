@@ -28,6 +28,7 @@
 #include <chrono>
 
 #include "CustomFigure.h"
+#include "ScopedLock.h"
 
 bool CustomFigure::execute = true;
 
@@ -179,14 +180,13 @@ void CustomFigure::calc()
 		this->FillPoints(vertices, -10, 10, 0.5, lockTime);
 		this->FillNormals(vertices, normals);
 
-		this->mtx->lock();
+		ScopedLock sl(mtx);
 		auto a = _a + 0.001 * _ka;
 		auto b = _b + 0.001 * _kb;
 		_a = a;
 		_b = b;
 		this->SetAll(vertices, normals, -10, 10, 0.5, this->_time);
 		lockTime = this->_time;
-		this->mtx->unlock();
 	}
 }
 
@@ -204,21 +204,6 @@ double CustomFigure::GetB()
 {
 	return _b;
 }
-
-class ScopedLock
-{
-	std::mutex* _mtx;
-public:
-	ScopedLock(std::mutex * mtx)
-		: _mtx(mtx)
-	{
-		_mtx->lock();
-	}
-	~ScopedLock()
-	{
-		_mtx->unlock();
-	}
-};
 
 void CustomFigure::SetKA(int k)
 {
