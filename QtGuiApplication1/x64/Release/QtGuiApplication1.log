@@ -1,0 +1,3256 @@
+﻿  CustomCallback.cpp
+  CustomFigure.cpp
+  CustomGroup.cpp
+  CustomTransform.cpp
+  CustomViewer.cpp
+  main.cpp
+  Generating Code...
+  LINK : padding exhausted: performing full link
+  
+  Invoking LINK.EXE:
+   /ERRORREPORT:PROMPT @C:\Users\ADMIN\AppData\Local\Temp\tmpbde3bc1664ba41e98096db2451545bf6.rsp
+   /incremental
+   /nologo
+   /fullbuild
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:msvcprt
+  Processed /DEFAULTLIB:MSVCRT
+  Processed /DEFAULTLIB:OLDNAMES
+  Processed /DEFAULTLIB:uuid.lib
+  
+  Searching libraries
+      Searching C:\lib\qt5\lib\qtmain.lib:
+      Searching C:\lib\qt5\lib\Qt5Core.lib:
+        Found "protected: virtual void __cdecl QObject::childEvent(class QChildEvent *)" (?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "protected: virtual void __cdecl QObject::connectNotify(class QMetaMethod const &)" (?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "protected: virtual void __cdecl QObject::customEvent(class QEvent *)" (?customEvent@QObject@@MEAAXPEAVQEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "protected: virtual void __cdecl QObject::disconnectNotify(class QMetaMethod const &)" (?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "public: virtual bool __cdecl QObject::eventFilter(class QObject *,class QEvent *)" (?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "protected: virtual void __cdecl QObject::timerEvent(class QTimerEvent *)" (?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "__declspec(dllimport) public: struct QMetaObject * __cdecl QObjectData::dynamicMetaObject(void)const " (__imp_?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ)
+          Referenced in moc_QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "__declspec(dllimport) public: __cdecl QMetaObject::Connection::~Connection(void)" (__imp_??1Connection@QMetaObject@@QEAA@XZ)
+          Referenced in main.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "__declspec(dllimport) public: __cdecl QString::~QString(void)" (__imp_??1QString@@QEAA@XZ)
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "__declspec(dllimport) private: static struct QTypedArrayData<unsigned short> * __cdecl QString::fromAscii_helper(char const *,int)" (__imp_?fromAscii_helper@QString@@CAPEAU?$QTypedArrayData@G@@PEBDH@Z)
+          Referenced in main.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "__declspec(dllimport) private: static class QMetaObject::Connection __cdecl QObject::connectImpl(class QObject const *,void * *,class QObject const *,void * *,class QtPrivate::QSlotObjectBase *,enum Qt::ConnectionType,int const *,struct QMetaObject const *)" (__imp_?connectImpl@QObject@@CA?AVConnection@QMetaObject@@PEBV1@PEAPEAX01PEAVQSlotObjectBase@QtPrivate@@W4ConnectionType@Qt@@PEBHPEBU3@@Z)
+          Referenced in main.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "public: virtual bool __cdecl QObject::event(class QEvent *)" (?event@QObject@@UEAA_NPEAVQEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "__declspec(dllimport) public: static void __cdecl QMetaObject::connectSlotsByName(class QObject *)" (__imp_?connectSlotsByName@QMetaObject@@SAXPEAVQObject@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "__declspec(dllimport) public: class QString __cdecl QObject::objectName(void)const " (__imp_?objectName@QObject@@QEBA?AVQString@@XZ)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "__declspec(dllimport) public: void __cdecl QObject::setObjectName(class QString const &)" (__imp_?setObjectName@QObject@@QEAAXAEBVQString@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found "__declspec(dllimport) public: static class QString __cdecl QCoreApplication::translate(char const *,char const *,char const *,int)" (__imp_?translate@QCoreApplication@@SA?AVQString@@PEBD00H@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found __IMPORT_DESCRIPTOR_Qt5Core
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Loaded Qt5Core.lib(Qt5Core.dll)
+        Found Qt5Core_NULL_THUNK_DATA
+          Referenced in Qt5Core.lib(Qt5Core.dll)
+          Loaded Qt5Core.lib(Qt5Core.dll)
+      Searching C:\lib\qt5\lib\Qt5Gui.lib:
+      Searching C:\lib\qt5\lib\Qt5Widgets.lib:
+        Found "__declspec(dllimport) public: __cdecl QWidget::QWidget(class QWidget *,class QFlags<enum Qt::WindowType>)" (__imp_??0QWidget@@QEAA@PEAV0@V?$QFlags@W4WindowType@Qt@@@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual __cdecl QWidget::~QWidget(void)" (__imp_??1QWidget@@UEAA@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::actionEvent(class QActionEvent *)" (?actionEvent@QWidget@@MEAAXPEAVQActionEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::changeEvent(class QEvent *)" (?changeEvent@QWidget@@MEAAXPEAVQEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::closeEvent(class QCloseEvent *)" (?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QWidget@@MEAAXPEAVQContextMenuEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QWidget::devType(void)const " (?devType@QWidget@@UEBAHXZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::dropEvent(class QDropEvent *)" (?dropEvent@QWidget@@MEAAXPEAVQDropEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::enterEvent(class QEvent *)" (?enterEvent@QWidget@@MEAAXPEAVQEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual bool __cdecl QWidget::event(class QEvent *)" (?event@QWidget@@MEAA_NPEAVQEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::focusInEvent(class QFocusEvent *)" (?focusInEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual bool __cdecl QWidget::focusNextPrevChild(bool)" (?focusNextPrevChild@QWidget@@MEAA_N_N@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual bool __cdecl QWidget::hasHeightForWidth(void)const " (?hasHeightForWidth@QWidget@@UEBA_NXZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QWidget::heightForWidth(int)const " (?heightForWidth@QWidget@@UEBAHH@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::hideEvent(class QHideEvent *)" (?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::initPainter(class QPainter *)const " (?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QVariant __cdecl QWidget::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QWidget@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QWidget@@MEAAXPEAVQKeyEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::leaveEvent(class QEvent *)" (?leaveEvent@QWidget@@MEAAXPEAVQEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual struct QMetaObject const * __cdecl QWidget::metaObject(void)const " (?metaObject@QWidget@@UEBAPEBUQMetaObject@@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual int __cdecl QWidget::metric(enum QPaintDevice::PaintDeviceMetric)const " (?metric@QWidget@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSize __cdecl QWidget::minimumSizeHint(void)const " (?minimumSizeHint@QWidget@@UEBA?AVQSize@@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::moveEvent(class QMoveEvent *)" (?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual bool __cdecl QWidget::nativeEvent(class QByteArray const &,void *,long *)" (?nativeEvent@QWidget@@MEAA_NAEBVQByteArray@@PEAXPEAJ@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QPaintEngine * __cdecl QWidget::paintEngine(void)const " (?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::paintEvent(class QPaintEvent *)" (?paintEvent@QWidget@@MEAAXPEAVQPaintEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QWidget::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QWidget@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void * __cdecl QWidget::qt_metacast(char const *)" (?qt_metacast@QWidget@@UEAAPEAXPEBD@Z)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual class QPaintDevice * __cdecl QWidget::redirected(class QPoint *)const " (?redirected@QWidget@@MEBAPEAVQPaintDevice@@PEAVQPoint@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::resizeEvent(class QResizeEvent *)" (?resizeEvent@QWidget@@MEAAXPEAVQResizeEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void __cdecl QWidget::setVisible(bool)" (?setVisible@QWidget@@UEAAX_N@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual class QPainter * __cdecl QWidget::sharedPainter(void)const " (?sharedPainter@QWidget@@MEBAPEAVQPainter@@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::showEvent(class QShowEvent *)" (?showEvent@QWidget@@MEAAXPEAVQShowEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSize __cdecl QWidget::sizeHint(void)const " (?sizeHint@QWidget@@UEBA?AVQSize@@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::tabletEvent(class QTabletEvent *)" (?tabletEvent@QWidget@@MEAAXPEAVQTabletEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QWidget::wheelEvent(class QWheelEvent *)" (?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual void * __cdecl QMainWindow::qt_metacast(char const *)" (__imp_?qt_metacast@QMainWindow@@UEAAPEAXPEBD@Z)
+          Referenced in moc_QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual int __cdecl QMainWindow::qt_metacall(enum QMetaObject::Call,int,void * *)" (__imp_?qt_metacall@QMainWindow@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+          Referenced in moc_QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: static struct QMetaObject const QMainWindow::staticMetaObject" (__imp_?staticMetaObject@QMainWindow@@2UQMetaObject@@B)
+          Referenced in moc_QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QWidget::setWindowTitle(class QString const &)" (__imp_?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z)
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QWidget::show(void)" (__imp_?show@QWidget@@QEAAXXZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QWidget::setLayout(class QLayout *)" (__imp_?setLayout@QWidget@@QEAAXPEAVQLayout@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual __cdecl QMainWindow::~QMainWindow(void)" (__imp_??1QMainWindow@@UEAA@XZ)
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: __cdecl QApplication::QApplication(int &,char * *,int)" (__imp_??0QApplication@@QEAA@AEAHPEAPEADH@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual __cdecl QApplication::~QApplication(void)" (__imp_??1QApplication@@UEAA@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: static int __cdecl QApplication::exec(void)" (__imp_?exec@QApplication@@SAHXZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QAbstractSlider::setRange(int,int)" (__imp_?setRange@QAbstractSlider@@QEAAXHH@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QAbstractSlider::valueChanged(int)" (__imp_?valueChanged@QAbstractSlider@@QEAAXH@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: __cdecl QSlider::QSlider(enum Qt::Orientation,class QWidget *)" (__imp_??0QSlider@@QEAA@W4Orientation@Qt@@PEAVQWidget@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual __cdecl QSlider::~QSlider(void)" (__imp_??1QSlider@@UEAA@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QBoxLayout::addWidget(class QWidget *,int,class QFlags<enum Qt::AlignmentFlag>)" (__imp_?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QBoxLayout::addLayout(class QLayout *,int)" (__imp_?addLayout@QBoxLayout@@QEAAXPEAVQLayout@@H@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: __cdecl QHBoxLayout::QHBoxLayout(void)" (__imp_??0QHBoxLayout@@QEAA@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual __cdecl QHBoxLayout::~QHBoxLayout(void)" (__imp_??1QHBoxLayout@@UEAA@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: __cdecl QVBoxLayout::QVBoxLayout(void)" (__imp_??0QVBoxLayout@@QEAA@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual __cdecl QVBoxLayout::~QVBoxLayout(void)" (__imp_??1QVBoxLayout@@UEAA@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: __cdecl QLabel::QLabel(class QWidget *,class QFlags<enum Qt::WindowType>)" (__imp_??0QLabel@@QEAA@PEAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual __cdecl QLabel::~QLabel(void)" (__imp_??1QLabel@@UEAA@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QLabel::setText(class QString const &)" (__imp_?setText@QLabel@@QEAAXAEBVQString@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void __cdecl QBoxLayout::addItem(class QLayoutItem *)" (?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QAbstractSlider::changeEvent(class QEvent *)" (?changeEvent@QAbstractSlider@@MEAAXPEAVQEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QLabel::changeEvent(class QEvent *)" (?changeEvent@QLabel@@MEAAXPEAVQEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QLayout::childEvent(class QChildEvent *)" (?childEvent@QLayout@@MEAAXPEAVQChildEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QLabel::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QLabel@@MEAAXPEAVQContextMenuEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QFlags<enum QSizePolicy::ControlType> __cdecl QLayout::controlTypes(void)const " (?controlTypes@QLayout@@UEBA?AV?$QFlags@W4ControlType@QSizePolicy@@@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QBoxLayout::count(void)const " (?count@QBoxLayout@@UEBAHXZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual bool __cdecl QLabel::event(class QEvent *)" (?event@QLabel@@MEAA_NPEAVQEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual bool __cdecl QSlider::event(class QEvent *)" (?event@QSlider@@UEAA_NPEAVQEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QFlags<enum Qt::Orientation> __cdecl QBoxLayout::expandingDirections(void)const " (?expandingDirections@QBoxLayout@@UEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QLabel::focusInEvent(class QFocusEvent *)" (?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual bool __cdecl QLabel::focusNextPrevChild(bool)" (?focusNextPrevChild@QLabel@@MEAA_N_N@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QLabel::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QRect __cdecl QLayout::geometry(void)const " (?geometry@QLayout@@UEBA?AVQRect@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual bool __cdecl QBoxLayout::hasHeightForWidth(void)const " (?hasHeightForWidth@QBoxLayout@@UEBA_NXZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QBoxLayout::heightForWidth(int)const " (?heightForWidth@QBoxLayout@@UEBAHH@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QLabel::heightForWidth(int)const " (?heightForWidth@QLabel@@UEBAHH@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QLayout::indexOf(class QWidget *)const " (?indexOf@QLayout@@UEBAHPEAVQWidget@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void __cdecl QBoxLayout::invalidate(void)" (?invalidate@QBoxLayout@@UEAAXXZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual bool __cdecl QLayout::isEmpty(void)const " (?isEmpty@QLayout@@UEBA_NXZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QLayoutItem * __cdecl QBoxLayout::itemAt(int)const " (?itemAt@QBoxLayout@@UEBAPEAVQLayoutItem@@H@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QAbstractSlider::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QAbstractSlider@@MEAAXPEAVQKeyEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QLabel::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QLabel@@MEAAXPEAVQKeyEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QLayout * __cdecl QLayout::layout(void)" (?layout@QLayout@@UEAAPEAV1@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSize __cdecl QBoxLayout::maximumSize(void)const " (?maximumSize@QBoxLayout@@UEBA?AVQSize@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual struct QMetaObject const * __cdecl QHBoxLayout::metaObject(void)const " (?metaObject@QHBoxLayout@@UEBAPEBUQMetaObject@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual struct QMetaObject const * __cdecl QLabel::metaObject(void)const " (?metaObject@QLabel@@UEBAPEBUQMetaObject@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual struct QMetaObject const * __cdecl QSlider::metaObject(void)const " (?metaObject@QSlider@@UEBAPEBUQMetaObject@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual struct QMetaObject const * __cdecl QVBoxLayout::metaObject(void)const " (?metaObject@QVBoxLayout@@UEBAPEBUQMetaObject@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QBoxLayout::minimumHeightForWidth(int)const " (?minimumHeightForWidth@QBoxLayout@@UEBAHH@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSize __cdecl QBoxLayout::minimumSize(void)const " (?minimumSize@QBoxLayout@@UEBA?AVQSize@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSize __cdecl QLabel::minimumSizeHint(void)const " (?minimumSizeHint@QLabel@@UEBA?AVQSize@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSize __cdecl QSlider::minimumSizeHint(void)const " (?minimumSizeHint@QSlider@@UEBA?AVQSize@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QLabel::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QSlider::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QSlider@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QLabel::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QSlider::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QSlider@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QLabel::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QSlider::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QSlider@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QLabel::paintEvent(class QPaintEvent *)" (?paintEvent@QLabel@@MEAAXPEAVQPaintEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QSlider::paintEvent(class QPaintEvent *)" (?paintEvent@QSlider@@MEAAXPEAVQPaintEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QHBoxLayout::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QHBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QLabel::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QLabel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QSlider::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QSlider@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QVBoxLayout::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QVBoxLayout@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void * __cdecl QHBoxLayout::qt_metacast(char const *)" (?qt_metacast@QHBoxLayout@@UEAAPEAXPEBD@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void * __cdecl QLabel::qt_metacast(char const *)" (?qt_metacast@QLabel@@UEAAPEAXPEBD@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void * __cdecl QSlider::qt_metacast(char const *)" (?qt_metacast@QSlider@@UEAAPEAXPEBD@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void * __cdecl QVBoxLayout::qt_metacast(char const *)" (?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void __cdecl QBoxLayout::setGeometry(class QRect const &)" (?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSize __cdecl QBoxLayout::sizeHint(void)const " (?sizeHint@QBoxLayout@@UEBA?AVQSize@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSize __cdecl QLabel::sizeHint(void)const " (?sizeHint@QLabel@@UEBA?AVQSize@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSize __cdecl QSlider::sizeHint(void)const " (?sizeHint@QSlider@@UEBA?AVQSize@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QAbstractSlider::sliderChange(enum QAbstractSlider::SliderChange)" (?sliderChange@QAbstractSlider@@MEAAXW4SliderChange@1@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSpacerItem * __cdecl QLayoutItem::spacerItem(void)" (?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QLayoutItem * __cdecl QBoxLayout::takeAt(int)" (?takeAt@QBoxLayout@@UEAAPEAVQLayoutItem@@H@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QAbstractSlider::timerEvent(class QTimerEvent *)" (?timerEvent@QAbstractSlider@@MEAAXPEAVQTimerEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QAbstractSlider::wheelEvent(class QWheelEvent *)" (?wheelEvent@QAbstractSlider@@MEAAXPEAVQWheelEvent@@@Z)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QWidget * __cdecl QLayoutItem::widget(void)" (?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: static struct QMetaObject const QAbstractSlider::staticMetaObject" (__imp_?staticMetaObject@QAbstractSlider@@2UQMetaObject@@B)
+          Referenced in main.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QWidget::resize(class QSize const &)" (__imp_?resize@QWidget@@QEAAXAEBVQSize@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: __cdecl QMainWindow::QMainWindow(class QWidget *,class QFlags<enum Qt::WindowType>)" (__imp_??0QMainWindow@@QEAA@PEAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QMainWindow::setMenuBar(class QMenuBar *)" (__imp_?setMenuBar@QMainWindow@@QEAAXPEAVQMenuBar@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QMainWindow::setStatusBar(class QStatusBar *)" (__imp_?setStatusBar@QMainWindow@@QEAAXPEAVQStatusBar@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QMainWindow::setCentralWidget(class QWidget *)" (__imp_?setCentralWidget@QMainWindow@@QEAAXPEAVQWidget@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: void __cdecl QMainWindow::addToolBar(class QToolBar *)" (__imp_?addToolBar@QMainWindow@@QEAAXPEAVQToolBar@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: __cdecl QMenuBar::QMenuBar(class QWidget *)" (__imp_??0QMenuBar@@QEAA@PEAVQWidget@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual __cdecl QMenuBar::~QMenuBar(void)" (__imp_??1QMenuBar@@UEAA@XZ)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: __cdecl QStatusBar::QStatusBar(class QWidget *)" (__imp_??0QStatusBar@@QEAA@PEAVQWidget@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual __cdecl QStatusBar::~QStatusBar(void)" (__imp_??1QStatusBar@@UEAA@XZ)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: __cdecl QToolBar::QToolBar(class QWidget *)" (__imp_??0QToolBar@@QEAA@PEAVQWidget@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "__declspec(dllimport) public: virtual __cdecl QToolBar::~QToolBar(void)" (__imp_??1QToolBar@@UEAA@XZ)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::actionEvent(class QActionEvent *)" (?actionEvent@QMenuBar@@MEAAXPEAVQActionEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QToolBar::actionEvent(class QActionEvent *)" (?actionEvent@QToolBar@@MEAAXPEAVQActionEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::changeEvent(class QEvent *)" (?changeEvent@QMenuBar@@MEAAXPEAVQEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QToolBar::changeEvent(class QEvent *)" (?changeEvent@QToolBar@@MEAAXPEAVQEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMainWindow::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QMainWindow@@MEAAXPEAVQContextMenuEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QMenu * __cdecl QMainWindow::createPopupMenu(void)" (?createPopupMenu@QMainWindow@@UEAAPEAVQMenu@@XZ)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual bool __cdecl QMainWindow::event(class QEvent *)" (?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual bool __cdecl QMenuBar::event(class QEvent *)" (?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual bool __cdecl QStatusBar::event(class QEvent *)" (?event@QStatusBar@@MEAA_NPEAVQEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual bool __cdecl QToolBar::event(class QEvent *)" (?event@QToolBar@@MEAA_NPEAVQEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual bool __cdecl QMenuBar::eventFilter(class QObject *,class QEvent *)" (?eventFilter@QMenuBar@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::focusInEvent(class QFocusEvent *)" (?focusInEvent@QMenuBar@@MEAAXPEAVQFocusEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QMenuBar@@MEAAXPEAVQFocusEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QMenuBar::heightForWidth(int)const " (?heightForWidth@QMenuBar@@UEBAHH@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QMenuBar@@MEAAXPEAVQKeyEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::leaveEvent(class QEvent *)" (?leaveEvent@QMenuBar@@MEAAXPEAVQEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual struct QMetaObject const * __cdecl QMenuBar::metaObject(void)const " (?metaObject@QMenuBar@@UEBAPEBUQMetaObject@@XZ)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual struct QMetaObject const * __cdecl QStatusBar::metaObject(void)const " (?metaObject@QStatusBar@@UEBAPEBUQMetaObject@@XZ)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual struct QMetaObject const * __cdecl QToolBar::metaObject(void)const " (?metaObject@QToolBar@@UEBAPEBUQMetaObject@@XZ)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSize __cdecl QMenuBar::minimumSizeHint(void)const " (?minimumSizeHint@QMenuBar@@UEBA?AVQSize@@XZ)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QMenuBar@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QMenuBar@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QMenuBar@@MEAAXPEAVQMouseEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::paintEvent(class QPaintEvent *)" (?paintEvent@QMenuBar@@MEAAXPEAVQPaintEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QStatusBar::paintEvent(class QPaintEvent *)" (?paintEvent@QStatusBar@@MEAAXPEAVQPaintEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QToolBar::paintEvent(class QPaintEvent *)" (?paintEvent@QToolBar@@MEAAXPEAVQPaintEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QMenuBar::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QMenuBar@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QStatusBar::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QStatusBar@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual int __cdecl QToolBar::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QToolBar@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void * __cdecl QMenuBar::qt_metacast(char const *)" (?qt_metacast@QMenuBar@@UEAAPEAXPEBD@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void * __cdecl QStatusBar::qt_metacast(char const *)" (?qt_metacast@QStatusBar@@UEAAPEAXPEBD@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void * __cdecl QToolBar::qt_metacast(char const *)" (?qt_metacast@QToolBar@@UEAAPEAXPEBD@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::resizeEvent(class QResizeEvent *)" (?resizeEvent@QMenuBar@@MEAAXPEAVQResizeEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QStatusBar::resizeEvent(class QResizeEvent *)" (?resizeEvent@QStatusBar@@MEAAXPEAVQResizeEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual void __cdecl QMenuBar::setVisible(bool)" (?setVisible@QMenuBar@@UEAAX_N@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QStatusBar::showEvent(class QShowEvent *)" (?showEvent@QStatusBar@@MEAAXPEAVQShowEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "public: virtual class QSize __cdecl QMenuBar::sizeHint(void)const " (?sizeHint@QMenuBar@@UEBA?AVQSize@@XZ)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found "protected: virtual void __cdecl QMenuBar::timerEvent(class QTimerEvent *)" (?timerEvent@QMenuBar@@MEAAXPEAVQTimerEvent@@@Z)
+          Referenced in QtGuiApplication1.obj
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found __IMPORT_DESCRIPTOR_Qt5Widgets
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+        Found Qt5Widgets_NULL_THUNK_DATA
+          Referenced in Qt5Widgets.lib(Qt5Widgets.dll)
+          Loaded Qt5Widgets.lib(Qt5Widgets.dll)
+      Searching C:\lib\osg-3.4.0\lib\osg.lib:
+        Found "__declspec(dllimport) public: __cdecl osg::Object::Object(void)" (__imp_??0Object@osg@@QEAA@XZ)
+          Referenced in CustomCallback.obj
+          Referenced in CustomViewer.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) protected: virtual __cdecl osg::Object::~Object(void)" (__imp_??1Object@osg@@MEAA@XZ)
+          Referenced in CustomCallback.obj
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: __cdecl osg::Callback::Callback(void)" (__imp_??0Callback@osg@@QEAA@XZ)
+          Referenced in CustomCallback.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: bool __cdecl osg::Callback::traverse(class osg::Object *,class osg::Object *)" (__imp_?traverse@Callback@osg@@QEAA_NPEAVObject@2@0@Z)
+          Referenced in CustomCallback.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) protected: virtual __cdecl osg::Callback::~Callback(void)" (__imp_??1Callback@osg@@MEAA@XZ)
+          Referenced in CustomCallback.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: __cdecl osg::NodeCallback::NodeCallback(void)" (__imp_??0NodeCallback@osg@@QEAA@XZ)
+          Referenced in CustomCallback.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: virtual class osg::Object * __cdecl osg::NodeCallback::cloneType(void)const " (__imp_?cloneType@NodeCallback@osg@@UEBAPEAVObject@2@XZ)
+          Referenced in CustomCallback.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: virtual class osg::Object * __cdecl osg::NodeCallback::clone(class osg::CopyOp const &)const " (__imp_?clone@NodeCallback@osg@@UEBAPEAVObject@2@AEBVCopyOp@2@@Z)
+          Referenced in CustomCallback.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: virtual bool __cdecl osg::NodeCallback::isSameKindAs(class osg::Object const *)const " (__imp_?isSameKindAs@NodeCallback@osg@@UEBA_NPEBVObject@2@@Z)
+          Referenced in CustomCallback.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: virtual char const * __cdecl osg::NodeCallback::libraryName(void)const " (__imp_?libraryName@NodeCallback@osg@@UEBAPEBDXZ)
+          Referenced in CustomCallback.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: virtual char const * __cdecl osg::NodeCallback::className(void)const " (__imp_?className@NodeCallback@osg@@UEBAPEBDXZ)
+          Referenced in CustomCallback.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: virtual bool __cdecl osg::NodeCallback::run(class osg::Object *,class osg::Object *)" (__imp_?run@NodeCallback@osg@@UEAA_NPEAVObject@2@0@Z)
+          Referenced in CustomCallback.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) protected: virtual __cdecl osg::NodeCallback::~NodeCallback(void)" (__imp_??1NodeCallback@osg@@MEAA@XZ)
+          Referenced in CustomCallback.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Node * __cdecl osg::Object::asNode(void)" (?asNode@Object@osg@@UEAAPEAVNode@2@XZ)
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomViewer.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Node const * __cdecl osg::Object::asNode(void)const " (?asNode@Object@osg@@UEBAPEBVNode@2@XZ)
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomViewer.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::NodeVisitor * __cdecl osg::Object::asNodeVisitor(void)" (?asNodeVisitor@Object@osg@@UEAAPEAVNodeVisitor@2@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::NodeVisitor const * __cdecl osg::Object::asNodeVisitor(void)const " (?asNodeVisitor@Object@osg@@UEBAPEBVNodeVisitor@2@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::StateAttribute * __cdecl osg::Object::asStateAttribute(void)" (?asStateAttribute@Object@osg@@UEAAPEAVStateAttribute@2@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::StateAttribute const * __cdecl osg::Object::asStateAttribute(void)const " (?asStateAttribute@Object@osg@@UEBAPEBVStateAttribute@2@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Uniform * __cdecl osg::Object::asUniform(void)" (?asUniform@Object@osg@@UEAAPEAVUniform@2@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Uniform const * __cdecl osg::Object::asUniform(void)const " (?asUniform@Object@osg@@UEBAPEBVUniform@2@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Object::computeDataVariance(void)" (?computeDataVariance@Object@osg@@UEAAXXZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Referenced * __cdecl osg::Object::getUserData(void)" (?getUserData@Object@osg@@UEAAPEAVReferenced@2@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Referenced const * __cdecl osg::Object::getUserData(void)const " (?getUserData@Object@osg@@UEBAPEBVReferenced@2@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Object::releaseGLObjects(class osg::State *)const " (?releaseGLObjects@Object@osg@@UEBAXPEAVState@2@@Z)
+          Referenced in CustomCallback.obj
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Object::resizeGLObjectBuffers(unsigned int)" (?resizeGLObjectBuffers@Object@osg@@UEAAXI@Z)
+          Referenced in CustomCallback.obj
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Object::setName(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?setName@Object@osg@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Object::setThreadSafeRefUnref(bool)" (?setThreadSafeRefUnref@Object@osg@@UEAAX_N@Z)
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomViewer.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Object::setUserData(class osg::Referenced *)" (?setUserData@Object@osg@@UEAAXPEAVReferenced@2@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: int __cdecl osg::Referenced::unref(void)const " (__imp_?unref@Referenced@osg@@QEBAHXZ)
+          Referenced in main.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Referenced in CustomViewer.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) protected: virtual __cdecl osg::BufferData::~BufferData(void)" (__imp_??1BufferData@osg@@MEAA@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: __cdecl osg::Array::Array(enum osg::Array::Type,int,unsigned int,enum osg::Array::Binding)" (__imp_??0Array@osg@@QEAA@W4Type@01@HIW4Binding@01@@Z)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: __cdecl osg::Array::Array(class osg::Array const &,class osg::CopyOp const &)" (__imp_??0Array@osg@@QEAA@AEBV01@AEBVCopyOp@1@@Z)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) protected: virtual __cdecl osg::Array::~Array(void)" (__imp_??1Array@osg@@MEAA@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: __cdecl osg::DrawArrays::DrawArrays(unsigned int,int,int,int)" (__imp_??0DrawArrays@osg@@QEAA@IHHH@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: __cdecl osg::Geometry::Geometry(void)" (__imp_??0Geometry@osg@@QEAA@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: void __cdecl osg::Geometry::setVertexArray(class osg::Array *)" (__imp_?setVertexArray@Geometry@osg@@QEAAXPEAVArray@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: void __cdecl osg::Geometry::setNormalArray(class osg::Array *,enum osg::Array::Binding)" (__imp_?setNormalArray@Geometry@osg@@QEAAXPEAVArray@2@W4Binding@32@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: void __cdecl osg::Geometry::setColorArray(class osg::Array *,enum osg::Array::Binding)" (__imp_?setColorArray@Geometry@osg@@QEAAXPEAVArray@2@W4Binding@32@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: bool __cdecl osg::Geometry::addPrimitiveSet(class osg::PrimitiveSet *)" (__imp_?addPrimitiveSet@Geometry@osg@@QEAA_NPEAVPrimitiveSet@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) protected: virtual __cdecl osg::Geometry::~Geometry(void)" (__imp_??1Geometry@osg@@MEAA@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: void __cdecl osg::Geometry::setColorBinding(enum osg::Geometry::AttributeBinding)" (__imp_?setColorBinding@Geometry@osg@@QEAAXW4AttributeBinding@12@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::DrawArrays::accept(class osg::PrimitiveFunctor &)const " (?accept@DrawArrays@osg@@UEBAXAEAVPrimitiveFunctor@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::DrawArrays::accept(class osg::PrimitiveIndexFunctor &)const " (?accept@DrawArrays@osg@@UEBAXAEAVPrimitiveIndexFunctor@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Geometry::accept(class osg::Drawable::AttributeFunctor &)" (?accept@Geometry@osg@@UEAAXAEAVAttributeFunctor@Drawable@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Geometry::accept(class osg::NodeVisitor &)" (?accept@Geometry@osg@@UEAAXAEAVNodeVisitor@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Geometry::accept(class osg::Drawable::ConstAttributeFunctor &)const " (?accept@Geometry@osg@@UEBAXAEAVConstAttributeFunctor@Drawable@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Geometry::accept(class osg::PrimitiveFunctor &)const " (?accept@Geometry@osg@@UEBAXAEAVPrimitiveFunctor@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Geometry::accept(class osg::PrimitiveIndexFunctor &)const " (?accept@Geometry@osg@@UEBAXAEAVPrimitiveIndexFunctor@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Array * __cdecl osg::Array::asArray(void)" (?asArray@Array@osg@@UEAAPEAV12@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Array const * __cdecl osg::Array::asArray(void)const " (?asArray@Array@osg@@UEBAPEBV12@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Array * __cdecl osg::BufferData::asArray(void)" (?asArray@BufferData@osg@@UEAAPEAVArray@2@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Array const * __cdecl osg::BufferData::asArray(void)const " (?asArray@BufferData@osg@@UEBAPEBVArray@2@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Camera * __cdecl osg::Node::asCamera(void)" (?asCamera@Node@osg@@UEAAPEAVCamera@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Camera const * __cdecl osg::Node::asCamera(void)const " (?asCamera@Node@osg@@UEBAPEBVCamera@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Drawable * __cdecl osg::Drawable::asDrawable(void)" (?asDrawable@Drawable@osg@@UEAAPEAV12@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Drawable const * __cdecl osg::Drawable::asDrawable(void)const " (?asDrawable@Drawable@osg@@UEBAPEBV12@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Geode * __cdecl osg::Node::asGeode(void)" (?asGeode@Node@osg@@UEAAPEAVGeode@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Geode const * __cdecl osg::Node::asGeode(void)const " (?asGeode@Node@osg@@UEBAPEBVGeode@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Geometry * __cdecl osg::Geometry::asGeometry(void)" (?asGeometry@Geometry@osg@@UEAAPEAV12@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Geometry const * __cdecl osg::Geometry::asGeometry(void)const " (?asGeometry@Geometry@osg@@UEBAPEBV12@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Group * __cdecl osg::Node::asGroup(void)" (?asGroup@Node@osg@@UEAAPEAVGroup@2@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Group const * __cdecl osg::Node::asGroup(void)const " (?asGroup@Node@osg@@UEBAPEBVGroup@2@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Image * __cdecl osg::BufferData::asImage(void)" (?asImage@BufferData@osg@@UEAAPEAVImage@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Image const * __cdecl osg::BufferData::asImage(void)const " (?asImage@BufferData@osg@@UEBAPEBVImage@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Node * __cdecl osg::Node::asNode(void)" (?asNode@Node@osg@@UEAAPEAV12@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Node const * __cdecl osg::Node::asNode(void)const " (?asNode@Node@osg@@UEBAPEBV12@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::PrimitiveSet * __cdecl osg::BufferData::asPrimitiveSet(void)" (?asPrimitiveSet@BufferData@osg@@UEAAPEAVPrimitiveSet@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::PrimitiveSet const * __cdecl osg::BufferData::asPrimitiveSet(void)const " (?asPrimitiveSet@BufferData@osg@@UEBAPEBVPrimitiveSet@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::PrimitiveSet * __cdecl osg::PrimitiveSet::asPrimitiveSet(void)" (?asPrimitiveSet@PrimitiveSet@osg@@UEAAPEAV12@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::PrimitiveSet const * __cdecl osg::PrimitiveSet::asPrimitiveSet(void)const " (?asPrimitiveSet@PrimitiveSet@osg@@UEBAPEBV12@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Switch * __cdecl osg::Node::asSwitch(void)" (?asSwitch@Node@osg@@UEAAPEAVSwitch@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Switch const * __cdecl osg::Node::asSwitch(void)const " (?asSwitch@Node@osg@@UEBAPEBVSwitch@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osgTerrain::Terrain * __cdecl osg::Node::asTerrain(void)" (?asTerrain@Node@osg@@UEAAPEAVTerrain@osgTerrain@@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osgTerrain::Terrain const * __cdecl osg::Node::asTerrain(void)const " (?asTerrain@Node@osg@@UEBAPEBVTerrain@osgTerrain@@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Transform * __cdecl osg::Node::asTransform(void)" (?asTransform@Node@osg@@UEAAPEAVTransform@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Transform const * __cdecl osg::Node::asTransform(void)const " (?asTransform@Node@osg@@UEBAPEBVTransform@2@XZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Node::ascend(class osg::NodeVisitor &)" (?ascend@Node@osg@@UEAAXAEAVNodeVisitor@2@@Z)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual char const * __cdecl osg::Array::className(void)const " (?className@Array@osg@@UEBAPEBDXZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual char const * __cdecl osg::DrawArrays::className(void)const " (?className@DrawArrays@osg@@UEBAPEBDXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual char const * __cdecl osg::Geometry::className(void)const " (?className@Geometry@osg@@UEBAPEBDXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Object * __cdecl osg::DrawArrays::clone(class osg::CopyOp const &)const " (?clone@DrawArrays@osg@@UEBAPEAVObject@2@AEBVCopyOp@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Object * __cdecl osg::Geometry::clone(class osg::CopyOp const &)const " (?clone@Geometry@osg@@UEBAPEAVObject@2@AEBVCopyOp@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Object * __cdecl osg::DrawArrays::cloneType(void)const " (?cloneType@DrawArrays@osg@@UEBAPEAVObject@2@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Object * __cdecl osg::Geometry::cloneType(void)const " (?cloneType@Geometry@osg@@UEBAPEAVObject@2@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Geometry::compileGLObjects(class osg::RenderInfo &)const " (?compileGLObjects@Geometry@osg@@UEBAXAEAVRenderInfo@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::BoundingSphereImpl<class osg::Vec3f> __cdecl osg::Drawable::computeBound(void)const " (?computeBound@Drawable@osg@@UEBA?AV?$BoundingSphereImpl@VVec3f@osg@@@2@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::BoundingBoxImpl<class osg::Vec3f> __cdecl osg::Drawable::computeBoundingBox(void)const " (?computeBoundingBox@Drawable@osg@@UEBA?AV?$BoundingBoxImpl@VVec3f@osg@@@2@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Drawable::computeDataVariance(void)" (?computeDataVariance@Drawable@osg@@UEAAXXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::PrimitiveSet::computeRange(void)const " (?computeRange@PrimitiveSet@osg@@UEBAXXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Geometry::dirtyDisplayList(void)" (?dirtyDisplayList@Geometry@osg@@UEAAXXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::DrawArrays::draw(class osg::State &,bool)const " (?draw@DrawArrays@osg@@UEBAXAEAVState@2@_N@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Geometry::drawImplementation(class osg::RenderInfo &)const " (?drawImplementation@Geometry@osg@@UEBAXAEAVRenderInfo@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void const * __cdecl osg::PrimitiveSet::getDataPointer(void)const " (?getDataPointer@PrimitiveSet@osg@@UEBAPEBXXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::DrawElements * __cdecl osg::PrimitiveSet::getDrawElements(void)" (?getDrawElements@PrimitiveSet@osg@@UEAAPEAVDrawElements@2@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::DrawElements const * __cdecl osg::PrimitiveSet::getDrawElements(void)const " (?getDrawElements@PrimitiveSet@osg@@UEBAPEBVDrawElements@2@XZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual unsigned int __cdecl osg::Geometry::getGLObjectSizeHint(void)const " (?getGLObjectSizeHint@Geometry@osg@@UEBAIXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual unsigned int __cdecl osg::DrawArrays::getNumIndices(void)const " (?getNumIndices@DrawArrays@osg@@UEBAIXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual unsigned int __cdecl osg::PrimitiveSet::getNumPrimitives(void)const " (?getNumPrimitives@PrimitiveSet@osg@@UEBAIXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual unsigned int __cdecl osg::PrimitiveSet::getTotalDataSize(void)const " (?getTotalDataSize@PrimitiveSet@osg@@UEBAIXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual unsigned int __cdecl osg::DrawArrays::index(unsigned int)const " (?index@DrawArrays@osg@@UEBAII@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Array::isSameKindAs(class osg::Object const *)const " (?isSameKindAs@Array@osg@@UEBA_NPEBVObject@2@@Z)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::DrawArrays::isSameKindAs(class osg::Object const *)const " (?isSameKindAs@DrawArrays@osg@@UEBA_NPEBVObject@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Geometry::isSameKindAs(class osg::Object const *)const " (?isSameKindAs@Geometry@osg@@UEBA_NPEBVObject@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual char const * __cdecl osg::Array::libraryName(void)const " (?libraryName@Array@osg@@UEBAPEBDXZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual char const * __cdecl osg::DrawArrays::libraryName(void)const " (?libraryName@DrawArrays@osg@@UEBAPEBDXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual char const * __cdecl osg::Geometry::libraryName(void)const " (?libraryName@Geometry@osg@@UEBAPEBDXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::DrawArrays::offsetIndices(int)" (?offsetIndices@DrawArrays@osg@@UEAAXH@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::BufferData::releaseGLObjects(class osg::State *)const " (?releaseGLObjects@BufferData@osg@@UEBAXPEAVState@2@@Z)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Geometry::releaseGLObjects(class osg::State *)const " (?releaseGLObjects@Geometry@osg@@UEBAXPEAVState@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::BufferData::resizeGLObjectBuffers(unsigned int)" (?resizeGLObjectBuffers@BufferData@osg@@UEAAXI@Z)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Geometry::resizeGLObjectBuffers(unsigned int)" (?resizeGLObjectBuffers@Geometry@osg@@UEAAXI@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Drawable::setDrawCallback(struct osg::Drawable::DrawCallback *)" (?setDrawCallback@Drawable@osg@@UEAAXPEAUDrawCallback@12@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Drawable::setThreadSafeRefUnref(bool)" (?setThreadSafeRefUnref@Drawable@osg@@UEAAX_N@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Geometry::setUseVertexBufferObjects(bool)" (?setUseVertexBufferObjects@Geometry@osg@@UEAAX_N@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Geometry::supports(class osg::Drawable::AttributeFunctor const &)const " (?supports@Geometry@osg@@UEBA_NAEBVAttributeFunctor@Drawable@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Geometry::supports(class osg::Drawable::ConstAttributeFunctor const &)const " (?supports@Geometry@osg@@UEBA_NAEBVConstAttributeFunctor@Drawable@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Geometry::supports(class osg::PrimitiveFunctor const &)const " (?supports@Geometry@osg@@UEBA_NAEBVPrimitiveFunctor@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Geometry::supports(class osg::PrimitiveIndexFunctor const &)const " (?supports@Geometry@osg@@UEBA_NAEBVPrimitiveIndexFunctor@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::PrimitiveSet::supportsBufferObject(void)const " (?supportsBufferObject@PrimitiveSet@osg@@UEBA_NXZ)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Node::traverse(class osg::NodeVisitor &)" (?traverse@Node@osg@@UEAAXAEAVNodeVisitor@2@@Z)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) const osg::Array::`vftable'" (__imp_??_7Array@osg@@6B@)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) const osg::PrimitiveSet::`vftable'" (__imp_??_7PrimitiveSet@osg@@6B@)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) const osg::DrawArrays::`vftable'" (__imp_??_7DrawArrays@osg@@6B@)
+          Referenced in CustomFigure.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: static class osg::Matrixd __cdecl osg::Matrixd::scale(double,double,double)" (__imp_?scale@Matrixd@osg@@SA?AV12@NNN@Z)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: static class osg::Matrixd __cdecl osg::Matrixd::translate(double,double,double)" (__imp_?translate@Matrixd@osg@@SA?AV12@NNN@Z)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: void __cdecl osg::Node::setUpdateCallback(class osg::Callback *)" (__imp_?setUpdateCallback@Node@osg@@QEAAXPEAVCallback@2@@Z)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: __cdecl osg::Group::Group(void)" (__imp_??0Group@osg@@QEAA@XZ)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: virtual bool __cdecl osg::Group::addChild(class osg::Node *)" (__imp_?addChild@Group@osg@@UEAA_NPEAVNode@2@@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) protected: virtual __cdecl osg::Group::~Group(void)" (__imp_??1Group@osg@@MEAA@XZ)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) protected: virtual __cdecl osg::MatrixTransform::~MatrixTransform(void)" (__imp_??1MatrixTransform@osg@@MEAA@XZ)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Group::accept(class osg::NodeVisitor &)" (?accept@Group@osg@@UEAAXAEAVNodeVisitor@2@@Z)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Drawable * __cdecl osg::Node::asDrawable(void)" (?asDrawable@Node@osg@@UEAAPEAVDrawable@2@XZ)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Drawable const * __cdecl osg::Node::asDrawable(void)const " (?asDrawable@Node@osg@@UEBAPEBVDrawable@2@XZ)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Geometry * __cdecl osg::Node::asGeometry(void)" (?asGeometry@Node@osg@@UEAAPEAVGeometry@2@XZ)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Geometry const * __cdecl osg::Node::asGeometry(void)const " (?asGeometry@Node@osg@@UEBAPEBVGeometry@2@XZ)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Group * __cdecl osg::Group::asGroup(void)" (?asGroup@Group@osg@@UEAAPEAV12@XZ)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Group const * __cdecl osg::Group::asGroup(void)const " (?asGroup@Group@osg@@UEBAPEBV12@XZ)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "protected: virtual void __cdecl osg::Group::childInserted(unsigned int)" (?childInserted@Group@osg@@MEAAXI@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "protected: virtual void __cdecl osg::Group::childRemoved(unsigned int,unsigned int)" (?childRemoved@Group@osg@@MEAAXII@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual char const * __cdecl osg::Group::className(void)const " (?className@Group@osg@@UEBAPEBDXZ)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Object * __cdecl osg::Group::clone(class osg::CopyOp const &)const " (?clone@Group@osg@@UEBAPEAVObject@2@AEBVCopyOp@2@@Z)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Object * __cdecl osg::Group::cloneType(void)const " (?cloneType@Group@osg@@UEBAPEAVObject@2@XZ)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::BoundingSphereImpl<class osg::Vec3f> __cdecl osg::Group::computeBound(void)const " (?computeBound@Group@osg@@UEBA?AV?$BoundingSphereImpl@VVec3f@osg@@@2@XZ)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual unsigned int __cdecl osg::Group::getNumChildren(void)const " (?getNumChildren@Group@osg@@UEBAIXZ)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Group::insertChild(unsigned int,class osg::Node *)" (?insertChild@Group@osg@@UEAA_NIPEAVNode@2@@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Group::isSameKindAs(class osg::Object const *)const " (?isSameKindAs@Group@osg@@UEBA_NPEBVObject@2@@Z)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual char const * __cdecl osg::Group::libraryName(void)const " (?libraryName@Group@osg@@UEBAPEBDXZ)
+          Referenced in CustomGroup.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Group::releaseGLObjects(class osg::State *)const " (?releaseGLObjects@Group@osg@@UEBAXPEAVState@2@@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Group::removeChild(class osg::Node *)" (?removeChild@Group@osg@@UEAA_NPEAVNode@2@@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Group::removeChildren(unsigned int,unsigned int)" (?removeChildren@Group@osg@@UEAA_NII@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Group::replaceChild(class osg::Node *,class osg::Node *)" (?replaceChild@Group@osg@@UEAA_NPEAVNode@2@0@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Group::resizeGLObjectBuffers(unsigned int)" (?resizeGLObjectBuffers@Group@osg@@UEAAXI@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::Group::setChild(unsigned int,class osg::Node *)" (?setChild@Group@osg@@UEAA_NIPEAVNode@2@@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Group::setThreadSafeRefUnref(bool)" (?setThreadSafeRefUnref@Group@osg@@UEAAX_N@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::Group::traverse(class osg::NodeVisitor &)" (?traverse@Group@osg@@UEAAXAEAVNodeVisitor@2@@Z)
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: __cdecl osg::Matrixd::~Matrixd(void)" (__imp_??1Matrixd@osg@@QEAA@XZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: void __cdecl osg::Matrixd::makeIdentity(void)" (__imp_?makeIdentity@Matrixd@osg@@QEAAXXZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: __cdecl osg::MatrixTransform::MatrixTransform(void)" (__imp_??0MatrixTransform@osg@@QEAA@XZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "__declspec(dllimport) public: void __cdecl osg::MatrixTransform::setMatrix(class osg::Matrixd const &)" (__imp_?setMatrix@MatrixTransform@osg@@QEAAXAEBVMatrixd@2@@Z)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual void __cdecl osg::MatrixTransform::accept(class osg::NodeVisitor &)" (?accept@MatrixTransform@osg@@UEAAXAEAVNodeVisitor@2@@Z)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::MatrixTransform * __cdecl osg::MatrixTransform::asMatrixTransform(void)" (?asMatrixTransform@MatrixTransform@osg@@UEAAPEAV12@XZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::MatrixTransform const * __cdecl osg::MatrixTransform::asMatrixTransform(void)const " (?asMatrixTransform@MatrixTransform@osg@@UEBAPEBV12@XZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::PositionAttitudeTransform * __cdecl osg::Transform::asPositionAttitudeTransform(void)" (?asPositionAttitudeTransform@Transform@osg@@UEAAPEAVPositionAttitudeTransform@2@XZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::PositionAttitudeTransform const * __cdecl osg::Transform::asPositionAttitudeTransform(void)const " (?asPositionAttitudeTransform@Transform@osg@@UEBAPEBVPositionAttitudeTransform@2@XZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Transform * __cdecl osg::Transform::asTransform(void)" (?asTransform@Transform@osg@@UEAAPEAV12@XZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Transform const * __cdecl osg::Transform::asTransform(void)const " (?asTransform@Transform@osg@@UEBAPEBV12@XZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual char const * __cdecl osg::MatrixTransform::className(void)const " (?className@MatrixTransform@osg@@UEBAPEBDXZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Object * __cdecl osg::MatrixTransform::clone(class osg::CopyOp const &)const " (?clone@MatrixTransform@osg@@UEBAPEAVObject@2@AEBVCopyOp@2@@Z)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::Object * __cdecl osg::MatrixTransform::cloneType(void)const " (?cloneType@MatrixTransform@osg@@UEBAPEAVObject@2@XZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual class osg::BoundingSphereImpl<class osg::Vec3f> __cdecl osg::Transform::computeBound(void)const " (?computeBound@Transform@osg@@UEBA?AV?$BoundingSphereImpl@VVec3f@osg@@@2@XZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::MatrixTransform::computeLocalToWorldMatrix(class osg::Matrixd &,class osg::NodeVisitor *)const " (?computeLocalToWorldMatrix@MatrixTransform@osg@@UEBA_NAEAVMatrixd@2@PEAVNodeVisitor@2@@Z)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::MatrixTransform::computeWorldToLocalMatrix(class osg::Matrixd &,class osg::NodeVisitor *)const " (?computeWorldToLocalMatrix@MatrixTransform@osg@@UEBA_NAEAVMatrixd@2@PEAVNodeVisitor@2@@Z)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual bool __cdecl osg::MatrixTransform::isSameKindAs(class osg::Object const *)const " (?isSameKindAs@MatrixTransform@osg@@UEBA_NPEBVObject@2@@Z)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found "public: virtual char const * __cdecl osg::MatrixTransform::libraryName(void)const " (?libraryName@MatrixTransform@osg@@UEBAPEBDXZ)
+          Referenced in CustomTransform.obj
+          Loaded osg.lib(osg130-osg.dll)
+        Found __IMPORT_DESCRIPTOR_osg130-osg
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Referenced in osg.lib(osg130-osg.dll)
+          Loaded osg.lib(osg130-osg.dll)
+        Found osg130-osg_NULL_THUNK_DATA
+          Referenced in osg.lib(osg130-osg.dll)
+          Loaded osg.lib(osg130-osg.dll)
+      Searching C:\lib\osg-3.4.0\lib\osgDB.lib:
+      Searching C:\lib\osg-3.4.0\lib\osgGA.lib:
+        Found "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgGA::GUIEventHandler::cloneType(void)const " (__imp_?cloneType@GUIEventHandler@osgGA@@UEBAPEAVObject@osg@@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgGA.lib(osg130-osgGA.dll)
+        Found "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgGA::GUIEventHandler::clone(class osg::CopyOp const &)const " (__imp_?clone@GUIEventHandler@osgGA@@UEBAPEAVObject@osg@@AEBVCopyOp@4@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgGA.lib(osg130-osgGA.dll)
+        Found "__declspec(dllimport) public: virtual bool __cdecl osgGA::GUIEventHandler::isSameKindAs(class osg::Object const *)const " (__imp_?isSameKindAs@GUIEventHandler@osgGA@@UEBA_NPEBVObject@osg@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgGA.lib(osg130-osgGA.dll)
+        Found "__declspec(dllimport) public: virtual char const * __cdecl osgGA::GUIEventHandler::libraryName(void)const " (__imp_?libraryName@GUIEventHandler@osgGA@@UEBAPEBDXZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgGA.lib(osg130-osgGA.dll)
+        Found "__declspec(dllimport) public: virtual char const * __cdecl osgGA::GUIEventHandler::className(void)const " (__imp_?className@GUIEventHandler@osgGA@@UEBAPEBDXZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgGA.lib(osg130-osgGA.dll)
+        Found __IMPORT_DESCRIPTOR_osg130-osgGA
+          Referenced in osgGA.lib(osg130-osgGA.dll)
+          Referenced in osgGA.lib(osg130-osgGA.dll)
+          Referenced in osgGA.lib(osg130-osgGA.dll)
+          Referenced in osgGA.lib(osg130-osgGA.dll)
+          Referenced in osgGA.lib(osg130-osgGA.dll)
+          Loaded osgGA.lib(osg130-osgGA.dll)
+        Found osg130-osgGA_NULL_THUNK_DATA
+          Referenced in osgGA.lib(osg130-osgGA.dll)
+          Loaded osgGA.lib(osg130-osgGA.dll)
+      Searching C:\lib\osg-3.4.0\lib\osgViewer.lib:
+        Found "__declspec(dllimport) public: virtual void __cdecl osgViewer::ViewerBase::setThreadingModel(enum osgViewer::ViewerBase::ThreadingModel)" (__imp_?setThreadingModel@ViewerBase@osgViewer@@UEAAXW4ThreadingModel@12@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: void __cdecl osgViewer::View::addEventHandler(class osgGA::EventHandler *)" (__imp_?addEventHandler@View@osgViewer@@QEAAXPEAVEventHandler@osgGA@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: void __cdecl osgViewer::View::setUpViewInWindow(int,int,int,int,unsigned int)" (__imp_?setUpViewInWindow@View@osgViewer@@QEAAXHHHHI@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: __cdecl osgViewer::Viewer::Viewer(void)" (__imp_??0Viewer@osgViewer@@QEAA@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: virtual __cdecl osgViewer::Viewer::~Viewer(void)" (__imp_??1Viewer@osgViewer@@UEAA@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgViewer::Viewer::cloneType(void)const " (__imp_?cloneType@Viewer@osgViewer@@UEBAPEAVObject@osg@@XZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: virtual class osg::Object * __cdecl osgViewer::Viewer::clone(class osg::CopyOp const &)const " (__imp_?clone@Viewer@osgViewer@@UEBAPEAVObject@osg@@AEBVCopyOp@4@@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: virtual bool __cdecl osgViewer::Viewer::isSameKindAs(class osg::Object const *)const " (__imp_?isSameKindAs@Viewer@osgViewer@@UEBA_NPEBVObject@osg@@@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: virtual char const * __cdecl osgViewer::Viewer::libraryName(void)const " (__imp_?libraryName@Viewer@osgViewer@@UEBAPEBDXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: virtual char const * __cdecl osgViewer::Viewer::className(void)const " (__imp_?className@Viewer@osgViewer@@UEBAPEBDXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: virtual void __cdecl osgViewer::Viewer::setSceneData(class osg::Node *)" (__imp_?setSceneData@Viewer@osgViewer@@UEAAXPEAVNode@osg@@@Z)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: virtual int __cdecl osgViewer::Viewer::run(void)" (__imp_?run@Viewer@osgViewer@@UEAAHXZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: __cdecl osgViewer::StatsHandler::StatsHandler(void)" (__imp_??0StatsHandler@osgViewer@@QEAA@XZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: void __cdecl osgViewer::StatsHandler::`vbase destructor'(void)" (__imp_??_DStatsHandler@osgViewer@@QEAAXXZ)
+          Referenced in CustomViewer.obj
+          Referenced in main.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::advance(double)" (?advance@Viewer@osgViewer@@UEAAXN@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual class osg::View * __cdecl osgViewer::View::asView(void)" (?asView@View@osgViewer@@UEAAPEAV1osg@@XZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual bool __cdecl osgViewer::Viewer::checkEvents(void)" (?checkEvents@Viewer@osgViewer@@UEAA_NXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual bool __cdecl osgViewer::Viewer::checkNeedToDoFrame(void)" (?checkNeedToDoFrame@Viewer@osgViewer@@UEAA_NXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual bool __cdecl osgViewer::View::computeIntersections(class osgGA::GUIEventAdapter const &,class std::multiset<struct osgUtil::LineSegmentIntersector::Intersection,struct std::less<struct osgUtil::LineSegmentIntersector::Intersection>,class std::allocator<struct osgUtil::LineSegmentIntersector::Intersection> > &,unsigned int)" (?computeIntersections@View@osgViewer@@UEAA_NAEBVGUIEventAdapter@osgGA@@AEAV?$multiset@UIntersection@LineSegmentIntersector@osgUtil@@U?$less@UIntersection@LineSegmentIntersector@osgUtil@@@std@@V?$allocator@UIntersection@LineSegmentIntersector@osgUtil@@@5@@std@@I@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual bool __cdecl osgViewer::View::computeIntersections(class osgGA::GUIEventAdapter const &,class std::vector<class osg::Node *,class std::allocator<class osg::Node *> > const &,class std::multiset<struct osgUtil::LineSegmentIntersector::Intersection,struct std::less<struct osgUtil::LineSegmentIntersector::Intersection>,class std::allocator<struct osgUtil::LineSegmentIntersector::Intersection> > &,unsigned int)" (?computeIntersections@View@osgViewer@@UEAA_NAEBVGUIEventAdapter@osgGA@@AEBV?$vector@PEAVNode@osg@@V?$allocator@PEAVNode@osg@@@std@@@std@@AEAV?$multiset@UIntersection@LineSegmentIntersector@osgUtil@@U?$less@UIntersection@LineSegmentIntersector@osgUtil@@@std@@V?$allocator@UIntersection@LineSegmentIntersector@osgUtil@@@5@@6@I@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "protected: virtual struct osg::GraphicsOperation * __cdecl osgViewer::View::createRenderer(class osg::Camera *)" (?createRenderer@View@osgViewer@@MEAAPEAUGraphicsOperation@osg@@PEAVCamera@4@@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual double __cdecl osgViewer::Viewer::elapsedTime(void)" (?elapsedTime@Viewer@osgViewer@@UEAANXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::eventTraversal(void)" (?eventTraversal@Viewer@osgViewer@@UEAAXXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::ViewerBase::frame(double)" (?frame@ViewerBase@osgViewer@@UEAAXN@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::getAllThreads(class std::vector<class OpenThreads::Thread *,class std::allocator<class OpenThreads::Thread *> > &,bool)" (?getAllThreads@Viewer@osgViewer@@UEAAXAEAV?$vector@PEAVThread@OpenThreads@@V?$allocator@PEAVThread@OpenThreads@@@std@@@std@@_N@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::getCameras(class std::vector<class osg::Camera *,class std::allocator<class osg::Camera *> > &,bool)" (?getCameras@Viewer@osgViewer@@UEAAXAEAV?$vector@PEAVCamera@osg@@V?$allocator@PEAVCamera@osg@@@std@@@std@@_N@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::getContexts(class std::vector<class osg::GraphicsContext *,class std::allocator<class osg::GraphicsContext *> > &,bool)" (?getContexts@Viewer@osgViewer@@UEAAXAEAV?$vector@PEAVGraphicsContext@osg@@V?$allocator@PEAVGraphicsContext@osg@@@std@@@std@@_N@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::getOperationThreads(class std::vector<class osg::OperationThread *,class std::allocator<class osg::OperationThread *> > &,bool)" (?getOperationThreads@Viewer@osgViewer@@UEAAXAEAV?$vector@PEAVOperationThread@osg@@V?$allocator@PEAVOperationThread@osg@@@std@@@std@@_N@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::getScenes(class std::vector<class osgViewer::Scene *,class std::allocator<class osgViewer::Scene *> > &,bool)" (?getScenes@Viewer@osgViewer@@UEAAXAEAV?$vector@PEAVScene@osgViewer@@V?$allocator@PEAVScene@osgViewer@@@std@@@std@@_N@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::getUsage(class osg::ApplicationUsage &)const " (?getUsage@Viewer@osgViewer@@UEBAXAEAVApplicationUsage@osg@@@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual class osg::FrameStamp * __cdecl osgViewer::Viewer::getViewerFrameStamp(void)" (?getViewerFrameStamp@Viewer@osgViewer@@UEAAPEAVFrameStamp@osg@@XZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual class osg::Stats * __cdecl osgViewer::Viewer::getViewerStats(void)" (?getViewerStats@Viewer@osgViewer@@UEAAPEAVStats@osg@@XZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual class osg::Stats const * __cdecl osgViewer::Viewer::getViewerStats(void)const " (?getViewerStats@Viewer@osgViewer@@UEBAPEBVStats@osg@@XZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::getViews(class std::vector<class osgViewer::View *,class std::allocator<class osgViewer::View *> > &,bool)" (?getViews@Viewer@osgViewer@@UEAAXAEAV?$vector@PEAVView@osgViewer@@V?$allocator@PEAVView@osgViewer@@@std@@@std@@_N@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::ViewerBase::getWindows(class std::vector<class osgViewer::GraphicsWindow *,class std::allocator<class osgViewer::GraphicsWindow *> > &,bool)" (?getWindows@ViewerBase@osgViewer@@UEAAXAEAV?$vector@PEAVGraphicsWindow@osgViewer@@V?$allocator@PEAVGraphicsWindow@osgViewer@@@std@@@std@@_N@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual bool __cdecl osgViewer::Viewer::isRealized(void)const " (?isRealized@Viewer@osgViewer@@UEBA_NXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual bool __cdecl osgViewer::Viewer::readConfiguration(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?readConfiguration@Viewer@osgViewer@@UEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::realize(void)" (?realize@Viewer@osgViewer@@UEAAXXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::ViewerBase::renderingTraversals(void)" (?renderingTraversals@ViewerBase@osgViewer@@UEAAXXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::View::requestContinuousUpdate(bool)" (?requestContinuousUpdate@View@osgViewer@@UEAAX_N@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::View::requestRedraw(void)" (?requestRedraw@View@osgViewer@@UEAAXXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::View::requestWarpPointer(float,float)" (?requestWarpPointer@View@osgViewer@@UEAAXMM@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::setStartTick(__int64)" (?setStartTick@Viewer@osgViewer@@UEAAX_J@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::ViewerBase::setUpThreading(void)" (?setUpThreading@ViewerBase@osgViewer@@UEAAXXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual class osgViewer::GraphicsWindowEmbedded * __cdecl osgViewer::Viewer::setUpViewerAsEmbeddedInWindow(int,int,int,int)" (?setUpViewerAsEmbeddedInWindow@Viewer@osgViewer@@UEAAPEAVGraphicsWindowEmbedded@2@HHHH@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::setViewerStats(class osg::Stats *)" (?setViewerStats@Viewer@osgViewer@@UEAAXPEAVStats@osg@@@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::ViewerBase::startThreading(void)" (?startThreading@ViewerBase@osgViewer@@UEAAXXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::ViewerBase::stopThreading(void)" (?stopThreading@ViewerBase@osgViewer@@UEAAXXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual enum osgViewer::ViewerBase::ThreadingModel __cdecl osgViewer::ViewerBase::suggestBestThreadingModel(void)" (?suggestBestThreadingModel@ViewerBase@osgViewer@@UEAA?AW4ThreadingModel@12@XZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::take(class osg::View &)" (?take@Viewer@osgViewer@@UEAAXAEAVView@osg@@@Z)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "public: virtual void __cdecl osgViewer::Viewer::updateTraversal(void)" (?updateTraversal@Viewer@osgViewer@@UEAAXXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "protected: virtual void __cdecl osgViewer::Viewer::viewerInit(void)" (?viewerInit@Viewer@osgViewer@@MEAAXXZ)
+          Referenced in CustomViewer.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found "__declspec(dllimport) public: void __cdecl osgViewer::Viewer::`vbase destructor'(void)" (__imp_??_DViewer@osgViewer@@QEAAXXZ)
+          Referenced in main.obj
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found __IMPORT_DESCRIPTOR_osg130-osgViewer
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+        Found osg130-osgViewer_NULL_THUNK_DATA
+          Referenced in osgViewer.lib(osg130-osgViewer.dll)
+          Loaded osgViewer.lib(osg130-osgViewer.dll)
+      Searching C:\lib\osg-3.4.0\lib\OpenThreads.lib:
+        Found "__declspec(dllimport) public: unsigned int __cdecl OpenThreads::Atomic::operator++(void)" (__imp_??EAtomic@OpenThreads@@QEAAIXZ)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded OpenThreads.lib(ot20-OpenThreads.dll)
+        Found __IMPORT_DESCRIPTOR_ot20-OpenThreads
+          Referenced in OpenThreads.lib(ot20-OpenThreads.dll)
+          Loaded OpenThreads.lib(ot20-OpenThreads.dll)
+        Found ot20-OpenThreads_NULL_THUNK_DATA
+          Referenced in OpenThreads.lib(ot20-OpenThreads.dll)
+          Loaded OpenThreads.lib(ot20-OpenThreads.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\msvcprt.lib:
+        Found "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found "__declspec(dllimport) void __cdecl std::_Xlength_error(char const *)" (__imp_?_Xlength_error@std@@YAXPEBD@Z)
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found "__declspec(dllimport) void __cdecl std::_Xout_of_range(char const *)" (__imp_?_Xout_of_range@std@@YAXPEBD@Z)
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPEBDH@Z)
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPEBDH@Z)
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found __imp__Mtx_lock
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found __imp__Mtx_unlock
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found "__declspec(dllimport) void __cdecl std::_Throw_C_error(int)" (__imp_?_Throw_C_error@std@@YAXH@Z)
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found "__declspec(dllimport) public: void __cdecl std::_Container_base12::_Swap_all(struct std::_Container_base12 &)" (__imp_?_Swap_all@_Container_base12@std@@QEAAXAEAU12@@Z)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found __imp__Thrd_join
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found __imp__Thrd_equal
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found __imp__Thrd_current
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found "__declspec(dllimport) void __cdecl std::_Throw_Cpp_error(int)" (__imp_?_Throw_Cpp_error@std@@YAXH@Z)
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found "__declspec(dllimport) public: __cdecl std::_Pad::_Pad(void)" (__imp_??0_Pad@std@@QEAA@XZ)
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found "__declspec(dllimport) public: __cdecl std::_Pad::~_Pad(void)" (__imp_??1_Pad@std@@QEAA@XZ)
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found "__declspec(dllimport) public: void __cdecl std::_Pad::_Launch(struct _Thrd_imp_t *)" (__imp_?_Launch@_Pad@std@@QEAAXPEAU_Thrd_imp_t@@@Z)
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found "__declspec(dllimport) public: void __cdecl std::_Pad::_Release(void)" (__imp_?_Release@_Pad@std@@QEAAXXZ)
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found __imp__Mtx_init
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found __imp__Mtx_destroy
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found __IMPORT_DESCRIPTOR_MSVCP120
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Loaded msvcprt.lib(MSVCP120.dll)
+        Found MSVCP120_NULL_THUNK_DATA
+          Referenced in msvcprt.lib(MSVCP120.dll)
+          Loaded msvcprt.lib(MSVCP120.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\MSVCRT.lib:
+        Found _purecall
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found "void * __cdecl operator new(unsigned __int64)" (??2@YAPEAX_K@Z)
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found "void __cdecl operator delete(void *)" (??3@YAXPEAX@Z)
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found atexit
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomViewer.obj
+          Referenced in qrc_QtGuiApplication1.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded MSVCRT.lib(atonexit.obj)
+        Found __imp__hypot
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp_memmove
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found _CxxThrowException
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __CxxFrameHandler3
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found memcpy
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found "const type_info::`vftable'" (??_7type_info@@6B@)
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded MSVCRT.lib(ti_inst.obj)
+        Found _fltused
+          Referenced in CustomViewer.obj
+          Referenced in moc_QtGuiApplication1.obj
+          Referenced in main.obj
+          Referenced in QtGuiApplication1.obj
+          Referenced in CustomCallback.obj
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Loaded MSVCRT.lib(dllsupp.obj)
+        Found __imp__invalid_parameter_noinfo_noreturn
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __GSHandlerCheck
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded MSVCRT.lib(gshandler.obj)
+        Found __GSHandlerCheck_EH
+          Referenced in CustomFigure.obj
+          Referenced in CustomTransform.obj
+          Referenced in main.obj
+          Loaded MSVCRT.lib(gshandlereh.obj)
+        Found __security_check_cookie
+          Referenced in MSVCRT.lib(gshandler.obj)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Referenced in main.obj
+          Loaded MSVCRT.lib(amdsecgs.obj)
+        Found sin
+          Referenced in CustomFigure.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found sqrt
+          Referenced in CustomFigure.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found sqrtf
+          Referenced in CustomFigure.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __security_cookie
+          Referenced in MSVCRT.lib(amdsecgs.obj)
+          Referenced in CustomFigure.obj
+          Referenced in CustomGroup.obj
+          Referenced in CustomTransform.obj
+          Referenced in main.obj
+          Loaded MSVCRT.lib(gs_cookie.obj)
+        Found "__declspec(dllimport) void __cdecl terminate(void)" (__imp_?terminate@@YAXXZ)
+          Referenced in CustomGroup.obj
+          Referenced in main.obj
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found WinMainCRTStartup
+          Loaded MSVCRT.lib(crtexew.obj)
+        Found __IMPORT_DESCRIPTOR_MSVCR120
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found _lock
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found _unlock
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp__calloc_crt
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __dllonexit
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __C_specific_handler
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp__onexit
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found "void __cdecl `eh vector destructor iterator'(void *,unsigned __int64,int,void (__cdecl*)(void *))" (??_M@YAXPEAX_KHP6AX0@Z@Z)
+          Referenced in MSVCRT.lib(ti_inst.obj)
+          Loaded MSVCRT.lib(ehvecdtr.obj)
+        Found "public: virtual __cdecl type_info::~type_info(void)" (??1type_info@@UEAA@XZ)
+          Referenced in MSVCRT.lib(ti_inst.obj)
+          Loaded MSVCRT.lib(typeinfo_dtor_64.obj)
+        Found __report_gsfailure
+          Referenced in MSVCRT.lib(amdsecgs.obj)
+          Loaded MSVCRT.lib(gs_report.obj)
+        Found __CxxSetUnhandledExceptionFilter
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(unhandld.obj)
+        Found _XcptFilter
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp___crtGetShowWindowMode
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found _amsg_exit
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found _setargv
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(dllargv.obj)
+        Found __imp___getmainargs
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp___set_app_type
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found _IsNonwritableInCurrentImage
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(pesect.obj)
+        Found __imp_exit
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp__exit
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp__cexit
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __security_init_cookie
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(gs_support.obj)
+        Found _matherr
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(merr.obj)
+        Found __imp__ismbblead
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found _RTC_Initialize
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(initsect.obj)
+        Found __imp__configthreadlocale
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp___setusermatherr
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found _initterm_e
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found _initterm
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __globallocalestatus
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(xthdloc.obj)
+        Found _commode
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(xncommod.obj)
+        Found _dowildcard
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(wildcard.obj)
+        Found _newmode
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(_newmode.obj)
+        Found __imp__acmdln
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __native_startup_state
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(natstart.obj)
+        Found _fmode
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(xtxtmode.obj)
+        Found __imp__fmode
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __imp__commode
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __xi_a
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded MSVCRT.lib(cinitexe.obj)
+  Processed /DEFAULTLIB:kernel32.lib
+   Processed /DISALLOWLIB:libcmt.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+   Processed /DISALLOWLIB:msvcrtd.lib
+        Found MSVCR120_NULL_THUNK_DATA
+          Referenced in MSVCRT.lib(MSVCR120.dll)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found "public: void __cdecl type_info::_type_info_dtor_internal_method(void)" (?_type_info_dtor_internal_method@type_info@@QEAAXXZ)
+          Referenced in MSVCRT.lib(typeinfo_dtor_64.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __crt_debugger_hook
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __crtUnhandledException
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __crtTerminateProcess
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __crtCaptureCurrentContext
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __crtCapturePreviousContext
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+        Found __crtSetUnhandledExceptionFilter
+          Referenced in MSVCRT.lib(unhandld.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\OLDNAMES.lib:
+      Searching C:\lib\qt5\lib\qtmain.lib:
+        Found WinMain
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded qtmain.lib(qtmain_win.obj)
+      Searching C:\lib\qt5\lib\Qt5Core.lib:
+      Searching C:\lib\qt5\lib\Qt5Gui.lib:
+      Searching C:\lib\qt5\lib\Qt5Widgets.lib:
+      Searching C:\lib\osg-3.4.0\lib\osg.lib:
+      Searching C:\lib\osg-3.4.0\lib\osgDB.lib:
+      Searching C:\lib\osg-3.4.0\lib\osgGA.lib:
+      Searching C:\lib\osg-3.4.0\lib\osgViewer.lib:
+      Searching C:\lib\osg-3.4.0\lib\OpenThreads.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+        Found __imp_EncodePointer
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Referenced in MSVCRT.lib(crtexew.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_DecodePointer
+          Referenced in MSVCRT.lib(atonexit.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_IsDebuggerPresent
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found IsProcessorFeaturePresent
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_QueryPerformanceCounter
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetCurrentProcessId
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetCurrentThreadId
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetSystemTimeAsFileTime
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetCommandLineW
+          Referenced in qtmain.lib(qtmain_win.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_LocalFree
+          Referenced in qtmain.lib(qtmain_win.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_WideCharToMultiByte
+          Referenced in qtmain.lib(qtmain_win.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shell32.lib:
+        Found __imp_CommandLineToArgvW
+          Referenced in qtmain.lib(qtmain_win.obj)
+          Loaded shell32.lib(SHELL32.dll)
+        Found __IMPORT_DESCRIPTOR_SHELL32
+          Referenced in shell32.lib(SHELL32.dll)
+          Loaded shell32.lib(SHELL32.dll)
+        Found SHELL32_NULL_THUNK_DATA
+          Referenced in shell32.lib(SHELL32.dll)
+          Loaded shell32.lib(SHELL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\msvcprt.lib:
+        Found "void * __cdecl operator new[](unsigned __int64)" (??_U@YAPEAX_K@Z)
+          Referenced in qtmain.lib(qtmain_win.obj)
+          Loaded msvcprt.lib(newaop_s.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\MSVCRT.lib:
+        Found "void __cdecl operator delete[](void *)" (??_V@YAXPEAX@Z)
+          Referenced in qtmain.lib(qtmain_win.obj)
+          Loaded MSVCRT.lib(MSVCR120.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\OLDNAMES.lib:
+      Searching C:\lib\qt5\lib\qtmain.lib:
+      Searching C:\lib\qt5\lib\Qt5Core.lib:
+      Searching C:\lib\qt5\lib\Qt5Gui.lib:
+      Searching C:\lib\qt5\lib\Qt5Widgets.lib:
+      Searching C:\lib\osg-3.4.0\lib\osg.lib:
+      Searching C:\lib\osg-3.4.0\lib\osgDB.lib:
+      Searching C:\lib\osg-3.4.0\lib\osgGA.lib:
+      Searching C:\lib\osg-3.4.0\lib\osgViewer.lib:
+      Searching C:\lib\osg-3.4.0\lib\OpenThreads.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+  
+  Finished searching libraries
+  
+  Finished pass 1
+  
+  
+  Searching libraries
+      Searching C:\lib\qt5\lib\qtmain.lib:
+      Searching C:\lib\qt5\lib\Qt5Core.lib:
+      Searching C:\lib\qt5\lib\Qt5Gui.lib:
+      Searching C:\lib\qt5\lib\Qt5Widgets.lib:
+      Searching C:\lib\osg-3.4.0\lib\osg.lib:
+      Searching C:\lib\osg-3.4.0\lib\osgDB.lib:
+      Searching C:\lib\osg-3.4.0\lib\osgGA.lib:
+      Searching C:\lib\osg-3.4.0\lib\osgViewer.lib:
+      Searching C:\lib\osg-3.4.0\lib\OpenThreads.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\MSVCRT.lib:
+        Found _load_config_used
+          Loaded MSVCRT.lib(loadcfg.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\OLDNAMES.lib:
+  
+  Finished searching libraries
+  
+  Invoking rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\ADMIN\AppData\Local\Temp\lnk{E6074F2F-BF9F-4D4D-826E-FCB6989E70F5}.tmp"
+   "C:\Users\ADMIN\AppData\Local\Temp\lnk{40E5C2F8-E267-45B0-9F32-AECB6DAB62EB}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 6.3.9600.17336
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Creating C:\Users\ADMIN\AppData\Local\Temp\lnk{E6074F2F-BF9F-4D4D-826E-FCB6989E70F5}.tmp
+  
+  Using codepage 1251 as default
+  
+  C:\Users\ADMIN\AppData\Local\Temp\lnk{40E5C2F8-E267-45B0-9F32-AECB6DAB62EB}.tmp.
+  Writing 24:1,	lang:0x409,	size 381
+  
+  Invoking cvtres.exe:
+   /machine:amd64
+   /verbose
+   /out:"C:\Users\ADMIN\AppData\Local\Temp\lnk{30B44746-B12D-4FCC-B45A-C61CED835407}.tmp"
+   /readonly
+   "C:\Users\ADMIN\AppData\Local\Temp\lnk{E6074F2F-BF9F-4D4D-826E-FCB6989E70F5}.tmp"
+  Microsoft (R) Windows Resource To Object Converter Version 12.00.21005.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:381
+  
+  Unused libraries:
+    C:\lib\qt5\lib\Qt5Gui.lib
+    C:\lib\osg-3.4.0\lib\osgDB.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\user32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\gdi32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\winspool.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\advapi32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\ole32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\oleaut32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\uuid.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbc32.lib
+    C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64\odbccp32.lib
+    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64\OLDNAMES.lib
+  
+  Starting pass 2
+       * linker generated manifest res *
+       QtGuiApplication1.obj
+       main.obj
+       moc_QtGuiApplication1.obj
+       qrc_QtGuiApplication1.obj
+       CustomViewer.obj
+       CustomTransform.obj
+       CustomGroup.obj
+       CustomFigure.obj
+       CustomCallback.obj
+       qtmain.lib(qtmain_win.obj)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Core.lib(Qt5Core.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       Qt5Widgets.lib(Qt5Widgets.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osg.lib(osg130-osg.dll)
+       osgGA.lib(osg130-osgGA.dll)
+       osgGA.lib(osg130-osgGA.dll)
+       osgGA.lib(osg130-osgGA.dll)
+       osgGA.lib(osg130-osgGA.dll)
+       osgGA.lib(osg130-osgGA.dll)
+       osgGA.lib(osg130-osgGA.dll)
+       osgGA.lib(osg130-osgGA.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       osgViewer.lib(osg130-osgViewer.dll)
+       OpenThreads.lib(ot20-OpenThreads.dll)
+       OpenThreads.lib(ot20-OpenThreads.dll)
+       OpenThreads.lib(ot20-OpenThreads.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       shell32.lib(SHELL32.dll)
+       shell32.lib(SHELL32.dll)
+       shell32.lib(SHELL32.dll)
+       msvcprt.lib(newaop_s.obj)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       msvcprt.lib(MSVCP120.dll)
+       MSVCRT.lib(ehvecdtr.obj)
+       MSVCRT.lib(unhandld.obj)
+       MSVCRT.lib(atonexit.obj)
+       MSVCRT.lib(cinitexe.obj)
+       MSVCRT.lib(crtexew.obj)
+       MSVCRT.lib(dllargv.obj)
+       MSVCRT.lib(gs_cookie.obj)
+       MSVCRT.lib(gs_report.obj)
+       MSVCRT.lib(gs_support.obj)
+       MSVCRT.lib(merr.obj)
+       MSVCRT.lib(natstart.obj)
+       MSVCRT.lib(pesect.obj)
+       MSVCRT.lib(ti_inst.obj)
+       MSVCRT.lib(wildcard.obj)
+       MSVCRT.lib(dllsupp.obj)
+       MSVCRT.lib(amdsecgs.obj)
+       MSVCRT.lib(loadcfg.obj)
+       MSVCRT.lib(gshandler.obj)
+       MSVCRT.lib(gshandlereh.obj)
+       MSVCRT.lib(_newmode.obj)
+       MSVCRT.lib(xncommod.obj)
+       MSVCRT.lib(xtxtmode.obj)
+       MSVCRT.lib(xthdloc.obj)
+       MSVCRT.lib(typeinfo_dtor_64.obj)
+       MSVCRT.lib(initsect.obj)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+       MSVCRT.lib(MSVCR120.dll)
+  Finished pass 2
+  QtGuiApplication1.vcxproj -> C:\Users\ADMIN\documents\visual studio 2013\Projects\QtGuiApplication1\x64\Release\QtGuiApplication1.exe
